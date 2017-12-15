@@ -6,24 +6,13 @@
 -->
 <html>
 
-	{% include head.html %}
+	
 
-	<body>
-		<h2>{{ site.data.samplelist.docs_list_title }}</h2>
-<ul>
-   {% for item in site.data.samplelist.docs %}
-      <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
-   {% endfor %}
-</ul>
-
-		{% include header.html %}
+		
 		{% include navigation.html %}
-		{% include banner.html %}
-		{% include gallery.html %}
-		{% include contact.html %}
-		{% include spotlight.html %}
+		
 
-		{% include footer.html %}
+		
 
 	</body>
 </html>
