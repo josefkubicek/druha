@@ -1,26 +1,26 @@
-<!DOCTYPE HTML>
-<!--
-	Ethereal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
 	{% include head.html %}
-
 	<body>
-		
-	<nav class="main-nav">
-  <ul>
-    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-    <li><a href="/blog.html" {% if page.url == "/blog.html" %}class="active"{% endif %}>Blog</a></li>
-  </ul>
-</nav>
-
-		
-		{% include navigation.html %}
-		
-
-		
-
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Hi there, I'm Hank Quinlan!</h1>
+				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			</ul>
+		</footer>
 	</body>
 </html>
